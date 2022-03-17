@@ -1,0 +1,34 @@
+header{
+    background-color: #000;
+}
+ul{
+    text-align: center;
+    text-decoration: none;
+}
+ul li{
+    display: inline-flex;
+    padding: 10px;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+   position: relative;
+    margin-top: 5px;
+    margin-right: 90px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #f00;
+}
+i{
+    color: #fff;
+}
+body{
+    background-image: url(img4.jpeg);
+    background-size: 1350px;
+}
