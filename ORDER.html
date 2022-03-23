@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <header>
+            <h1>THE BANG ELECTRONICS</h1>
+            <nav>
+                <ul>
+                    
+                    <li><a href="#">Home<i class="fa fa-home"></i></a></li>
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="products.html">Our Products</a>
+                    <ul>
+                        <li><a href="ORDER.html">Order Form</a></li>
+                    </ul>
+                </li>
+                    <li><a href="testimonial 3.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact us<i class="fa fa-envelope-o"></i></a></li>
+                    
+                </ul>
+            </nav>
+            <hr>
+            </header>
+        <style>
+            tr th{
+                font-size: 40px;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            span{
+                float: right;
+                margin-top: -20px;
+            }
+        </style>
         <title>ORDER</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>ORDER FORM</h1>
         <h3>CUSTOMERS DETAILS</h3>
-        <label >Date</label><br>
+        <span>        <label >Date</label><br>
         <input type="Date" name="Date"required="required"><br>
         <label>Order</label><br>
         <input type="Order" name="Order" required="required">
-
+            </span>
         <nav>
         <ul>
             <label>Name</label><br>
@@ -46,10 +77,10 @@
         <h4>Delivery</h4>
         <p>
           
-         <label >Local Drop Off</label><br>
-        <input type="Local Drop Off" name="Local Drop Off"required="required"><br>
-        <label >Local Drop Up</label><br>
-        <input type="Local Drop Up" name="Local Drop Up"required="required"><br>      
+         <label >Local Drop Off</label>
+       <input type="radio" name="local"><br>
+        <label >Local Drop Up</label>
+        <input type="radio" name="local"><br>      
 
 
             
@@ -57,30 +88,29 @@
         <h4>Payment</h4>
         <p>
             
-                <label >cash</label><br>
-                <input type="cash" name="cash"required="required"><br>
-                <label >Check</label><br>
-                <input type="Check" name="Check"required="required"><br>
-                <label >Card</label><br>
-                <input type="Card" name="Card"required="required"><br>
-                <label >Others</label><br>
-                <input type="Others" name="Other"required="required"><br>
-
+                <label >cash</label>
+                <input type="radio" name="payment"><br> 
+                <label >Check</label>
+                <input type="radio" name="payment"><br> 
+                <label >Card</label>
+                <input type="radio" name="payment"><br> 
+                <label >Others</label>
+                <input type="radio" name="payment"><br> 
             
         </p>
+        <span>
         <h4>Amount</h4>
         <p>
             
-                <label >Subtotal</label><br>
-                <input type="Subtotal" name="Subtotal"required="required"><br>
-                <label >Tax</label><br>
+                <label >Subtotal</label>
+                <input type="Subtotal" name="Subtotal"required="required"><br> 
+                <label >Tax</label>
                 <input type="Tax" name="Tax"required="required"><br>
-                <label >Deposit</label><br>
+                <label >Deposit</label>
                 <input type="Deposit" name="Deposit"required="required"><br>
-                <label >Total</label><br>
+                <label >Total</label>
                 <input type="Total" name="Total"required="required"><br>
-
-
+             </span>
         
 
 
