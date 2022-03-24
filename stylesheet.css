@@ -1,34 +1,22 @@
-header{
-    background-color: #000;
-}
-ul{
-    text-align: center;
-    text-decoration: none;
-}
-ul li{
-    display: inline-flex;
+.contact-form .text-box{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50px -10px);
+    height: 50px;
     padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0, 1px ,1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
 }
-ul li ul{
-    display: none;
+#links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
 }
-ul li:hover ul{
-    display: block;
-   position: relative;
-    margin-top: 5px;
-    margin-right: 90px;
-}
-a{
-    color: #fff;
-    text-decoration: none;
-}
-a:hover{
-    color: #f00;
-}
-i{
-    color: #fff;
-}
-body{
-    background-image: url(img4.jpeg);
-    background-size: 1350px;
+.footer{
+    text-align: center;
 }
